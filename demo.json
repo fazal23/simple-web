@@ -1,9 +1,9 @@
 {
-    "family": "flask-signup",
+    "family": "demo",
     "containerDefinitions": [
         {
-            "image": "fazal23/simple-web/flask-signup:v_%BUILD_NUMBER%",
-            "name": "flask-signup",
+            "image": "fazal23/simple-web/demo:%BUILD_NUMBER%",
+            "name": "demo",
             "cpu": 10,
             "memory": 256,
             "essential": true,
